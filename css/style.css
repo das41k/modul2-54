@@ -1,0 +1,31 @@
+body {
+    background: #262628;
+}
+.text {
+    font-size: 56px;
+    color:white;
+    margin-bottom: 60px;
+}
+.block {
+    height: 500px;
+    width: 100%;
+    background-color: grey;
+}
+.block__rectangle {
+    display: flex;
+    height: 100px;
+    width: 900px;
+    background-color: rgb(223, 214, 214);
+    position: fixed;
+    left: 50%
+    
+}
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 50%;
+    left: 10%;
+}
